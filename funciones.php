@@ -1,14 +1,15 @@
-<? php
+<?php
+  function getQuestions(){
+    require_once("./conexion.php");
+    $conexion->query("set names utf8");
+    $preguntas = $conexion->query('SELECT * FROM datos');
 
-function conecatarBase ($host,$usuario,$clave,$base){
-if (!$enlace= mysql_connect($host,$usuario,$clave)){
-return false;
-} elseif (!mysql_select_db(base)){
-return false;
-} else {
-return true;
+    $preg = Array();
+    while($row = $preguntas->fetch_object()){
+      array_push($preg, $row);
+    }
+    echo json_encode($preg);
+  }
 
-
-
-
+if(isset($_POST['preguntas'])) getQuestions();
 ?>
