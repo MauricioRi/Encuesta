@@ -22,7 +22,7 @@
                 <div class="col-md-10 col-md-offset-1 form-container">
 
                     <h2>¿Como fue tu experiencia de servicio?</h2>
-                    <form role="form" method="post" id="reused_form">
+                    <form role="form" action="#" id="reused_form">
                         <div class="row" id = "cuestionario">
                             <div class="col-sm-12 form-group">
                                 <span id="no_pregunta">Pregunta 1</span>
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 form-group" id="fin_encuesta">
-                            <button class="btn btn-lg btn-warning btn-block" id="enviar">Finalizar </button>
+                            <button class="btn btn-lg btn-warning btn-block" onclick="sendEncuesta()" id="enviar">Finalizar </button>
                         </div>
                         </div>
                     </form>
