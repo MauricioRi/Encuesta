@@ -27,7 +27,7 @@
                             <div class="col-sm-12 form-group">
                                 <span id="no_pregunta">Pregunta 1</span>
                                 <br>
-                                <label id="pregunta">¿Si necesitó de ayuda para la búsqueda de un libro?</label>
+                                <label id="pregunta">¿.?</label>
                                 <p>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" onclick="molesto(1)" id="radio_experience" value="1" >

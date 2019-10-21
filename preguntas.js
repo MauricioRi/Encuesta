@@ -75,6 +75,7 @@ function molesto(respuesta){
       ID: preguntas[indice_pregunta].ID,
       ponderacion: respuesta,
       texto: $("#comments").val()
+      
     };
     respuestas.push(formato);
     $("#comments").val("");

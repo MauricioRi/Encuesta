@@ -1,4 +1,6 @@
-<?php
+
+ <?php
+ /*
 function genera_MenuSelección ($datos, $name, $label){
 $codigo= '<label>'.$label.'</label>'."\n";
 $codigo= $codigo.'<select name="'.name.'">."\n";
@@ -10,5 +12,7 @@ option>'."/n";
 $codigo= $codigo."</select>\n";
 return $codigo;
 }
+*/
 ?>
 
+ 
